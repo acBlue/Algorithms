@@ -14,8 +14,9 @@ public class Utils {
 
      public static boolean  isSort(Comparable[] a){
          for (int i = 1 ,N = a.length; i < N; i++) {
-             if ( less(a[i],a[i-1]))
-                   return  false;
+             if ( less(a[i],a[i-1])) {
+                 return false;
+             }
          }
          return  true;
      }

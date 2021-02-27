@@ -4,6 +4,9 @@ package org.ac.sort;
 import static org.ac.sort.Utils.exch;
 import static org.ac.sort.Utils.less;
 
+/**
+ * 堆排序
+ */
 public class HeapSort {
 
 
